@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div id="display">
+            <input type="text" id="result"  placeholder="enter input" >
+            </div>
+            <div class="buttons">
+                <div class="button" onclick="clearAll()">AC</div>
+    <div class="button" onclick="display('/')">/</div>
+    <div class="button" onclick="display('*')">*</div>
+    <div class="button" onclick="removelast()">&larr;</div>
+    <div class="button" onclick="display('7')">7</div>
+    <div class="button" onclick="display('8')">8</div>
+    <div class="button" onclick="display('9')">9</div>
+    <div class="button" onclick="display('-')">-</div>
+    <div class="button" onclick="display('4')">4</div>
+    <div class="button" onclick="display('5')">5</div>
+    <div class="button" onclick="display('6')">6</div>
+    <div class="button" onclick="display('+')">+</div>
+    <div class="button" onclick="display('1')">1</div>
+    <div class="button" onclick="display('2')">2</div>
+    <div class="button" onclick="display('3')">3</div>
+    <div class="button" onclick="display('.')">.</div>
+    <div class="button" onclick="display('&#40;')">(</div>
+    <div class="button" onclick="display('0')">0</div>
+    <div class="button" onclick="display('&#41;')" >)</div>
+    <div id="equal" class="button" onclick="output()">=</div>
+ </div>
+
+            </div>
+        </div>
+    </section>
+ 
+</body>
+<script src="./calc.js"></script>
+</html>
